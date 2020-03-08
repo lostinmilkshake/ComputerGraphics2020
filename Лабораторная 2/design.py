@@ -34,10 +34,10 @@ class Ui_MainWindow(object):
         self.tableWidget.setColumnCount(0)
         self.tableWidget.setRowCount(0)
         self.dotsButton = QtWidgets.QPushButton(self.centralwidget)
-        self.dotsButton.setGeometry(QtCore.QRect(610, 110, 75, 23))
+        self.dotsButton.setGeometry(QtCore.QRect(610, 110, 150, 23))
         self.dotsButton.setObjectName("dotsButton")
         self.bezierButton = QtWidgets.QPushButton(self.centralwidget)
-        self.bezierButton.setGeometry(QtCore.QRect(610, 530, 75, 23))
+        self.bezierButton.setGeometry(QtCore.QRect(610, 530, 150, 23))
         self.bezierButton.setObjectName("bezierButton")
         self.graphicsView = pg.PlotWidget(self.centralwidget)
         self.graphicsView.setGeometry(QtCore.QRect(20, 50, 561, 451))
@@ -56,7 +56,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Кривые Безье"))
         self.label.setText(_translate("MainWindow", "Введите количество точек"))
         self.dotsButton.setText(_translate("MainWindow", "Продолжить"))
         self.bezierButton.setText(_translate("MainWindow", "Построить"))

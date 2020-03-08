@@ -1,7 +1,3 @@
-from PIL import Image
-from PIL import ImageDraw
-
-
 def make_bezier(xys):
     # xys should be a sequence of 2-tuples (Bezier control points)
     n = len(xys)

@@ -47,6 +47,8 @@ class App(QMainWindow, design.Ui_MainWindow):
     def dotsPushed(self):
         try:
             n = int(self.numberEdit.text())
+            if n < 0:
+                raise ValueError
         except ValueError:
             self.xys.clear()
             msg = QMessageBox()
