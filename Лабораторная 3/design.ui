@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="OpenGLWidget" name="openGLWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>581</width>
+      <height>461</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>0</y>
+      <width>481</width>
+      <height>301</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>360</y>
+      <width>492</width>
+      <height>84</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Введите угол поворота вокруг оси X</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="angleYlineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="angleXlineEdit"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Введите угол поворота вокруг оси Y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="rotateXButton">
+       <property name="text">
+        <string>Повернуть по X</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="rotateYButton">
+       <property name="text">
+        <string>Повернуть по Y</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="setButton">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>310</y>
+      <width>245</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задать многограник</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="randomButton">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>310</y>
+      <width>245</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Случайный многограник</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1400</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>OpenGLWidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header>openglwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
