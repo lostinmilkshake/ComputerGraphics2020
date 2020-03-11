@@ -36,6 +36,7 @@ class App(QMainWindow, design.Ui_MainWindow):
             bezier = make_bezier(self.xys)
             points = bezier(ts)
 
+
             self.graphicsView.clear()
             pen = mkPen('r')
             self.graphicsView.plot([first[0] for first in points], [first[1] for first in points], pen=pen)
