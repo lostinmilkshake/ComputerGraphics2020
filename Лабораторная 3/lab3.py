@@ -43,7 +43,17 @@ class App(QMainWindow, design.Ui_MainWindow):
 
     @pyqtSlot()
     def rotateXPushed(self):
-        teta = float(self.angleXlineEdit.text())
+        try:
+            teta = float(self.angleXlineEdit.text())
+        except ValueError: 
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Critical)
+            msg.setText("Ошибка")
+            msg.setInformativeText('Неправильно введён угол поворота')
+            msg.setWindowTitle("Ошибка")
+            msg.exec_()
+            return
+        
         teta = teta * math.pi / 180
 
         # Находим нормализированный вектор
@@ -74,7 +84,16 @@ class App(QMainWindow, design.Ui_MainWindow):
 
     @pyqtSlot()
     def rotateYPushed(self):
-        teta = float(self.angleXlineEdit.text())
+        try:
+            teta = float(self.angleXlineEdit.text())
+        except ValueError: 
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Critical)
+            msg.setText("Ошибка")
+            msg.setInformativeText('Неправильно введён угол поворота')
+            msg.setWindowTitle("Ошибка")
+            msg.exec_()
+            return
         teta = teta * math.pi / 180
 
         # Находим нормализированный вектор
@@ -106,16 +125,25 @@ class App(QMainWindow, design.Ui_MainWindow):
     @pyqtSlot()
     def setPushed(self):
         k, l = 0, 0
-        for i in range(self.tableWidget.rowCount()):
-            if k % 4 == 0 and k != 0:
-                k = 0
-            if l % 4 == 0 and l != 0:
-                l = 0
-            mygl.xyzs[k][l][0] = float(self.tableWidget.item(i, 2).text())
-            mygl.xyzs[k][l][1] = float(self.tableWidget.item(i, 0).text())
-            mygl.xyzs[k][l][2] = float(self.tableWidget.item(i, 1).text())
-            k += 1
-            l += 1
+        try:
+            for i in range(self.tableWidget.rowCount()):
+                if k % 4 == 0 and k != 0:
+                    k = 0
+                if l % 4 == 0 and l != 0:
+                    l = 0
+                mygl.xyzs[k][l][0] = float(self.tableWidget.item(i, 2).text())
+                mygl.xyzs[k][l][1] = float(self.tableWidget.item(i, 0).text())
+                mygl.xyzs[k][l][2] = float(self.tableWidget.item(i, 1).text())
+                k += 1
+                l += 1
+        except Exception: 
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Critical)
+            msg.setText("Ошибка")
+            msg.setInformativeText('Неправльно заданы координаты многогранника')
+            msg.setWindowTitle("Ошибка")
+            msg.exec_()
+            return
         self.openGLWidget.update()
 
     def randomPushed(self):
