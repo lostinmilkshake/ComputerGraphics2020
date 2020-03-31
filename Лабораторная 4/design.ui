@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="PlotWidget" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>21</y>
+      <width>421</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>20</y>
+      <width>376</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="rectYLeft"/>
+     </item>
+     <item row="10" column="0" colspan="2">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Построить отрезки и прямоугольник</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="QTableWidget" name="tableWidget"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLineEdit" name="lengthEdit"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Верхний левый угол по у</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Верхний левый угол по х</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0" colspan="2">
+      <widget class="QPushButton" name="sectionButton">
+       <property name="text">
+        <string>Отсечь</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Введите координаты отрезков</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="widthEdit"/>
+     </item>
+     <item row="5" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Введите параметры прямоугольника</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Длина</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Ширина</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLineEdit" name="rectXLeft"/>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QLineEdit" name="linesEdit"/>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Введите количество отрезков</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QPushButton" name="linesTableButton">
+       <property name="text">
+        <string>Ввести координаты отрезков</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>823</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header>pyqtgraph.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
