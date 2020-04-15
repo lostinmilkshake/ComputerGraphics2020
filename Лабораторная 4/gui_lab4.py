@@ -94,7 +94,6 @@ class App(QMainWindow, design.Ui_MainWindow):
         # Window
         # First = Xleft, Second = Xright
         # Third = Yup, Fourth = Ydown
-        self.window = [10, 20, 20, 10]
         self.drawScene()
 
     def drawScene(self, linesPen=mkPen('k')):
