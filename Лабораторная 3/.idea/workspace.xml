@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c56077f6-4806-4598-afd5-5e4843849da4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yw1ppLPA2WZ6c14E3M5LZSDC2R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.lab3">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Лабораторная 3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testBez.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lab3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Лабораторная 3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testBez" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Лабораторная 3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testBez.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.lab3" />
+      <item itemvalue="Python.testBez" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lab3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c56077f6-4806-4598-afd5-5e4843849da4" name="Default Changelist" comment="" />
+      <created>1583839027998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583839027998</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583839293010">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1583839293010" />
+    <state x="818" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583839627187">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="818" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1583839627187" />
+    <state x="507" y="183" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583839281411">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="507" y="183" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.877@0.23.1440.877" timestamp="1583839281411" />
+    <state x="654" y="172" key="#xdebugger.evaluate" timestamp="1583919136639">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="654" y="172" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1583919136639" />
+    <state width="1419" height="285" key="GridCell.Tab.0.bottom" timestamp="1583937240619">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583937240619" />
+    <state width="1419" height="285" key="GridCell.Tab.0.center" timestamp="1583937240616">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583937240616" />
+    <state width="1419" height="285" key="GridCell.Tab.0.left" timestamp="1583937240615">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583937240615" />
+    <state width="1419" height="285" key="GridCell.Tab.0.right" timestamp="1583937240618">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583937240618" />
+    <state width="1419" height="285" key="GridCell.Tab.1.bottom" timestamp="1583937240624">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583937240624" />
+    <state width="1419" height="285" key="GridCell.Tab.1.center" timestamp="1583937240620">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1583937240620" />
+    <state width="1419" height="285" key="GridCell.Tab.1.left" timestamp="1583937240620">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1583937240620" />
+    <state width="1419" height="285" key="GridCell.Tab.1.right" timestamp="1583937240623">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583937240623" />
+    <state x="413" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1584875182983">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="413" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1584875182983" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lab3.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="bezierPoints" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

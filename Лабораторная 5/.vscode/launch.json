@@ -5,25 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Текущий файл",
+            "name": "Lab5 Debug",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "lab5.py",
             "console": "integratedTerminal"
-        },
-        {
-            "name": "Python: Текущий файл",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Python: Debug Console",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "internalConsole"
         }
     ]
 }
